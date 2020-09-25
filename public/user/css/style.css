@@ -1,0 +1,218 @@
+body{
+    direction: rtl;
+    background-color: rgb(52, 58, 64);
+}
+.navbar-brand{
+    margin-right: 5rem;
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-item{
+    margin-right: 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+.header,.Login{
+    width: 100%;
+    height: 760px;
+    background-image: url("../image/header3.jpg");
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position: center;
+    background-size:100% 100%;
+    background-size:cover;
+    margin-bottom:10px;
+    
+     /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(../image/header3.jpg); */
+  
+
+
+   /* padding-top: 20rem;
+    padding-bottom: 20rem;*/
+}
+.filterDiv , .loginContainer {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.loginContainer {
+    width: 450px;
+    height: 500px;
+    background: -webkit-linear-gradient(top, rgb(7, 9, 75), rgba(143, 104, 160, 0.5));
+    border-radius: 50px;
+}
+.search {
+    text-align: center;
+    margin-top: 10px;
+}
+.submit_search{
+    margin-top: 10px;  
+}
+.filter{
+    margin: 10px 0px 10px 0px;
+    font-size: 18px;
+    width: 150px;
+}
+.form-inline2{
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-dark:hover {
+    color: #f7eddf;
+    background-color: hsl(193, 50%, 22%);
+    border-color: #dc3545;
+}
+.btn-dark:focus, .btn-dark.focus {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #dc3545;
+    box-shadow: 0 0 10px 5px rgba(17, 141, 244, 0.5);
+}
+.card_item{
+    background-color: #271b14;
+    color: rgba(255, 255, 255, 1);
+     max-width: 300px;
+    height: 505px;
+}
+.header_name{
+    text-align: right;
+    background-color: #dc3545;
+}
+.card-body{
+    text-align: right;
+    min-height: 250px;
+}
+.form-filter{
+    display: inline-block;
+}
+.form-filter,select{
+    width: 10rem;
+}
+.label-filter{
+    display: block;
+    margin-bottom: 0px;
+}
+.card-style{
+    
+    margin-bottom: 10px;
+}
+.card_item:hover{
+    box-shadow: 0 4px 16px 0 rgb(149, 149, 205), 0 6px 20px 0 rgb(236, 236, 236);
+}
+.card-footer{
+    text-align: center;  
+}
+.bi-star-fill{
+    font-size: 25px;
+    color: #f9f959;
+    margin-top: 10px;
+}
+.bi-star-fill:hover{
+    font-size: 30px;
+    color: yellow;
+    cursor: pointer;
+    z-index: 1;
+   
+}
+.title-search{
+    color: #f7eddf;
+    margin: 1rem;
+}
+.Login-input {
+    margin: 8px auto 25px auto;
+    text-align: left;
+    /* display: block;*/
+}
+
+.Login-form{
+    margin: auto;
+}
+.Login-title{
+    color: #f7eddf;
+    font-size: 1.5rem;
+}
+.Login-link{
+    display: block;
+}
+.Login-submit{
+    border-radius: 26px;
+    font-size: 1rem;
+    padding: 15px;
+    width: 100%;
+    background: -webkit-linear-gradient(top, rgb(17, 8, 8), rgba(194, 51, 71, 0.5));
+    border-color: var(--white);
+}
+.Login-span{
+    color: #f7eddf;
+    margin-right: 0px;
+    text-align: right;
+    display: inline-block;
+}
+.Login-create-Acc,.Login-send-pass{
+        padding: 5px;
+        width: 190px;
+        background: -webkit-linear-gradient(top, rgb(47, 55, 78), rgba(144, 129, 227, 0.5));
+        border-color: rgb(142, 142, 144);
+}
+.Login-submit:hover{
+    box-shadow: 0 4px 16px 0 rgb(149, 149, 205), 0 6px 20px 0 rgb(236, 236, 236);
+    border-color: #b9b9b9;
+
+}
+.Login-create-Acc:hover{
+    box-shadow: 0 4px 16px 0 rgb(149, 149, 205), 0 6px 20px 0 rgb(236, 236, 236);
+
+}
+.Login-send-pass:hover{
+    box-shadow: 0 4px 16px 0 rgb(149, 149, 205), 0 6px 20px 0 rgb(236, 236, 236);
+
+}
+.card-title{
+    color: #f7eddf;
+    direction: ltr;
+    text-align: left;
+    height: 90px;
+}
+.createAccount{
+    width:500px;
+    height: 630px;
+    background: -webkit-linear-gradient(top, rgb(7, 9, 75), rgba(143, 104, 160, 0.5));
+    border-radius: 50px;
+    margin-top: 60px;
+}
+.dis{
+    display: inline-table;
+}
+.card-add-item{
+    background-color: #d3d3fa;
+}
+.myBorrowsBody ,.item-name ,.item-detile{
+    direction: ltr;
+}
+.extend_borrow{
+    width: 800px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: black;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    .modal {
+         direction: ltr;
+        position: fixed;
+        top: 200px;
+        left: 50%;
+        right: 50%;
+        z-index: 1050;
+        display: block; 
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        outline: 0
+}
